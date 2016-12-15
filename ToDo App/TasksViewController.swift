@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TasksViewController.swift
 //  ToDo App
 //
 //  Created by Andrew Saxionis on 12/14/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TasksViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -64,5 +64,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBAction func addTask(_ sender: Any) {
         performSegue(withIdentifier: "addSegue", sender: nil)
     }
+    
+    
 }
 
