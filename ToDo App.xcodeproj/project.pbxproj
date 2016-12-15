@@ -314,6 +314,7 @@
 				C176DA431E01EF30008B4599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

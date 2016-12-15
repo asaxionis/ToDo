@@ -27,6 +27,9 @@ class CreateTaskViewController: UIViewController {
         
         //Creates a task from the outlet information
         let task = Task()
+        
+        //if TaskNameTextField != nil {}
+        
         task.name = TaskNameTextField.text!
         task.isImportant = ImportantSwitch.isOn
         
